@@ -23,7 +23,7 @@ npm i dropdown-react-sw49go
 ## Format of datas for the list inside dropdown :
 ```
 \\ DATA in the form of a character string
-export const data = [{name:'Hello'}, {name:'Goodbye} ....]
+export const data = [{name:'Hello'}, {name:'Goodbye'} ....]
 
 \\ OR numeric
 export const data = [{name:52}, {name:10}....]
