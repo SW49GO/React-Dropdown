@@ -31,7 +31,7 @@ function DropdownReact({data,
     let mergedStyleHeader = {
         ...SelectConfig.styleHeader,
         ...customHeader
-    }
+        }
     if (isOpen) {
         mergedStyleHeader = {
           ...mergedStyleHeader,

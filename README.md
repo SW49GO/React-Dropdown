@@ -19,6 +19,7 @@ npm i dropdown-react-sw49go
 - "react": "^18.2.0"
 - "react-dom": "^18.2.0"
 - "prop-types": "^15.8.1"
+- "react-icons": "^5.0.1"
 
 ## Format of datas for the list inside dropdown :
 ```

@@ -18,7 +18,7 @@ const defaultConfig = exports.defaultConfig = {
   },
   styleContainerList: {
     position: 'absolute',
-    top: '30',
+    top: '30px',
     width: '98.5%',
     zIndex: '10',
     textAlign: 'left',
