@@ -4,7 +4,7 @@ import * as React from 'react'
 
 interface DropdownReactProps {
   data: any[];
-  initialOption?: string;
+  initialOption?: string | number;
   styleContainer?:React.CSSProperties;
   styleHeader?:React.CSSProperties;
   styleContainerList?:React.CSSProperties;

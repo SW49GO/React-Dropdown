@@ -119,7 +119,10 @@ function DropdownReact({data,
 DropdownReact.propTypes = {
     data: PropTypes.array,
     onSelect: PropTypes.func,
-    initialOption: PropTypes.string,
+    initialOption: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+      ]),
     styleContainer: PropTypes.object,
     styleHeader: PropTypes.object,
     styleContainerList: PropTypes.object,

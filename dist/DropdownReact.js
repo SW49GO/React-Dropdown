@@ -131,7 +131,7 @@ function DropdownReact(_ref) {
 DropdownReact.propTypes = {
   data: _propTypes.default.array,
   onSelect: _propTypes.default.func,
-  initialOption: _propTypes.default.string,
+  initialOption: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),
   styleContainer: _propTypes.default.object,
   styleHeader: _propTypes.default.object,
   styleContainerList: _propTypes.default.object,
