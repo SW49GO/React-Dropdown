@@ -79,3 +79,5 @@ export default App
 - styleList (CssProperties) : style of option list
 - bckColorOverList (string) : the background color to apply when mouse over an option
 - colorTextOverList (string) : the color the text to apply when mouse over an option
+
+![Texte alternatif](https://raw.githubusercontent.com/SW49GO/React-Dropdown/master/public/assets/example.jpg)
